@@ -1,0 +1,278 @@
+.b li{
+    display: inline;
+    margin-left: 30px;
+    color: rgb(245, 8, 55);
+}
+.b ul{
+    top: 35px;
+    left: 650px;
+    position: absolute;
+    color: rgb(245, 8, 55);
+}
+.a h1{
+    top: 20px;
+    left: 30px;
+    color: rgb(136, 7, 7);
+    font-size: 50px;
+    background-color: #FFFDD0;
+}
+.f p{
+    font-size: 45px;
+    text-align: center;
+    background-color: #FFFDD0;
+}
+.home{
+    background-color: #FFFDD0;
+}
+.b li a:hover{
+    color: rgb(8, 8, 7);
+}
+.f button{
+    position: relative;
+    left: 600px;
+    width: 150px;
+    height: 50px;
+}
+.f button:hover{
+    background-color: rgb(77, 8, 112);
+    color: rgb(230, 240, 240);
+}
+.Ser{
+    background-color: #FFFDD0;
+}
+.Gal{
+    background-color: #FFFDD0;
+}
+.Me{
+    background-color: #FFFDD0;
+}
+#S1{
+position: relative;
+text-align: center;
+font-size: 50px;
+}
+.S2 {
+background-color: rgb(2, 3, 3);
+height: 350px;
+width: 300px;
+color: floralwhite;
+text-align: center;
+}
+.S2 img{
+    border-radius: 75%;
+}
+.S3 {
+    background-color: rgb(2, 3, 3);
+    height: 350px;
+    width: 300px;
+    color: floralwhite;
+    text-align: center;
+    position: absolute;
+    top: 1114px;
+    left: 500px;
+    }
+    .S3 img{
+        border-radius: 75%;
+    }
+    .S4 {
+        background-color: rgb(2, 3, 3);
+        height: 350px;
+        width: 300px;
+        color: floralwhite;
+        text-align: center;
+        position: absolute;
+    top: 1114px;
+    left: 1000px;
+        }
+    .S4 img{
+            border-radius: 75%;
+    }
+    .S5 h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .S5 img{
+        height: 450px;
+        width: 700px;
+    }
+    .S5 p{
+        position:absolute;
+        top: 1560px;
+        left: 750px;
+        font-size: 200%;
+    }
+    #G1{
+        display: inline-flex;
+    }  
+    .Gal h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .Me h1{
+        text-align: center;
+        font-size: 50px;
+    }
+.M1 img{
+    width: 1250px;
+    height: 900px;
+    border-width: 40px;
+    border-style: double;
+    border-color: rgb(8, 8, 7);
+}
+.Con h1{
+    font-size: 50px;
+    text-align: center;
+}
+.M2{
+    height: 300px;
+    width:400px;
+    position: absolute;
+    top:2820px;
+    left:100px;
+}
+.M2 h1{
+    text-align: left;
+    font-size: 40px;
+}
+.M2 li{
+    font-size: 25px;
+}
+.M2 ul{
+    position: absolute;
+    left: 150px;
+}
+.M3{
+    height: 300px;
+    width:400px;
+    position: absolute;
+    top:3200px;
+    left:100px;
+}
+.M3 h1{
+    text-align: left;
+    font-size: 40px;
+}
+.M3 li{
+    font-size: 25px;
+}
+.M3 ul{
+    position: absolute;
+    left: 150px;
+}
+.M4{
+    height: 300px;
+    width:400px;
+    position: absolute;
+    top:2820px;
+    left:900px;
+}
+.M4 h1{
+    text-align: left;
+    font-size: 40px;
+}
+.M4 li{
+    font-size: 25px;
+}
+.M4 ul{
+    position: absolute;
+    left: 100px;
+}
+.M5{
+    height: 300px;
+    width:400px;
+    position: absolute;
+    top:3250px;
+    left:900px;
+}
+.M5 h1{
+    text-align: left;
+    font-size: 40px;
+}
+.M5 li{
+    font-size: 25px;
+}
+.M5 ul{
+    position: absolute;
+    left: 100px;
+}
+.M7{
+    text-align: center;
+    position: absolute;
+    top: 3260px;
+    left: 508px; 
+    font-size: 40px;
+    
+}
+.rev{
+    background-color: #FFFDD0;
+}
+.Con{
+
+        background-color: #FFFDD0;
+}
+.rev h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Con form{
+    position: absolute;
+    left: 500px;
+    font-size: 30px;
+    background-color: #FFFDD0;
+} 
+.C1{
+    height: 40px;
+    width:300px
+}
+.C2{
+    height: 40px;
+    width:300px
+}
+.C3{
+    height: 40px;
+    width:300px
+}
+.C4{
+    height: 150px;
+    width:300px
+}
+.C9{
+    text-align: center;
+    position: absolute;
+    left:110px;
+    height: 40px;
+    width: 100px;
+}
+.Con button:hover{
+    background-color: #FFFDD0;
+}
+.R1 img{
+    border-radius: 75%;
+}
+.R2 img{
+    border-radius: 75%;
+}
+.R3 img{
+    border-radius: 75%;
+}
+.R1{
+    text-align: center;
+    height:400px;
+    width: 200px;
+}
+.R2{
+    text-align: center;
+    height:400px;
+    width: 200px;
+    position: absolute;
+    top:3905px;
+    left: 550px;
+}
+.R3{
+    text-align: center;
+    height:400px;
+    width: 200px;
+    position: absolute;
+    top:3905px;
+    left: 1000px;
+}

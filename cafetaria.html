@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caffe.css">
+    <title>cafeteria</title>
+</head>
+<body>
+    <div class="home">
+        <div class="a">
+            <h1> CAFETERIA</h1>
+            <div class ="b">
+                <ul class="men">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#Service">SERVICES</a></li>
+                    <li><a href="#Gallery">GALLERY</a></li>
+                    <li><a href="#Menu">MENU</a></li>
+                    <li><a href="#Review">REVIEW</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
+                  </ul>
+            </div>
+            <div class ="f">
+            <p>SIP <br> & <br> GET REFRESH</p>
+            <button> <strong>PLACE YOUR <br> ORDER </strong></button>
+            </div>
+                <div class="section" >
+                    <img class="mySlides" src="14.jpeg" width="1300px" height="600px">
+                    <img class="mySlides" src="15.jpeg" width="1300px" height="600px">
+                    <img class="mySlides" src="10.jpeg" width="1300px" height="600px">
+                    <img class="mySlides" src="13.jpeg" width="1300px" height="600px">
+                    <img class="mySlides" src="16.jpeg" width="1300px" height="600px">
+                    <img class="mySlides" src="11.jpeg" width="1300px" height="600px">
+                    <img class="mySlides" src="12.jpeg" width="1300px" height="600px">
+                </div>
+        </div>
+    </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); 
+}
+</script>
+
+    <div class="Ser">
+        <h1 id="S1"> <a id="Service"></a>OUR SERVICES</h1>
+         <div class="S2">
+             <img src="17.jpeg"width ="200" height="100">
+             <h1>COFFEE</h1>
+             <p>The drink is made from the<br> fresh seeds of the coffee plant,<br> called coffee beans. <br>Coffee is usually served hot, <br> and is a popular drink in many <br>countries. Coffee contains a chemical <br>called caffeine,<br> a mild drug that keeps people awake.</p>
+         </div>
+         <div class="S3">
+             <img src="18.jpeg"width ="200" height="100">
+             <h1>TEA</h1>
+             <p>Tea is one kind of drink.<br> It is made from the leaves of the tea plant.<br> Now-a-days, tea is the most popular <br>drink all over the world.</p>
+         </div>
+         <div class="S4">
+             <img src="20.jpg"width ="200" height="100">
+             <h1>CAKES</h1>
+             <p>A cake is a type of sweet dessert which<br> is baked. Freshly made cakes put a <br>smile on people's face. Cakes are often made<br> to celebrate special occasions<br> like birthdays or weddings. </p>
+         </div>
+         <div class="S5">
+             <h1>ABOUT US</h1>
+             <img src="35.jpg">
+             <p>We are here to provide good quality, hygenic, satisfactory and rich products at reasonable prices along with all type of sugars like low fat, zero calories, sugar free, jaggery,etc. All the items are freshely prepared and checked by our experts before serving. Your satisfaction our goal . Coffee is prepared by fresh podders of cocoa. Cookies,Brownies, Donuts, cakes and other etables are kept at proper temperature and served fresh. Homely atmosphere is provided by our staff.</p>
+         </div>
+    </div>
+    <div class="Gal">
+        <h1> <a id="Gallery"></a>OUR GALLERY</h1>
+        <div class= "G2">
+        <div id="G1">
+            <img class="sli"  src ="21.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="22.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="27.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="24.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="36.jpg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="39.jpg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="37.jpg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="26.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="23.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="40.jpg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="25.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="28.jpeg" width ="1300px" height="500px"><br>
+            <img class="sli"  src ="38.jpg" width ="1300px" height="500px"><br>
+        </div>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("sli");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); 
+        }
+        </script>
+    <div class="Me">
+        <h1> <a id="Menu"></a>MENU</h1>
+        <div class="M1">
+            <img src="42.png">
+            <div class="M2">
+            <h1><u>COFFEE</u></h1>
+            <ul class ="M6">
+                <li>Black Coffee</li>
+                <li>Decaf</li>
+                <li>Espresso</li>
+                <li>Latte</li>
+                <li>Cappuccino</li>
+                <li>Macchiato</li>
+                <li>Americano</li>
+                <li>Cold Brew</li>
+                <li>Iced Latte</li>
+            </ul>
+        </div>
+            <div class="M3">
+                    <h1><u>TEA</u></h1>
+                    <ul >
+                        <li>Black Tea</li>
+                        <li>Green Tea</li>
+                        <li>Oolong Tea</li>
+                        <li>Matcha</li>
+                        <li>Ginger Tea</li>
+                        <li>Basil Tea</li>
+                        <li>Masala Tea</li>
+                        <li>White Tea</li>
+                        <li>Kashmiri Tea</li>
+                    </ul>
+            </div>
+            <div class="M4">
+                <h1><u>CAKES</u></h1>
+                    <ul >
+                        <li>Carrot Cake</li>
+                        <li>Chocolate Cake</li>
+                        <li>Blue Berry Cake</li>
+                        <li>Cheese Cake</li>
+                        <li>Red Velvet Cake</li>
+                        <li>Genoise Cake</li>
+                        <li>Chiffon Cake</li>
+                        <li>Upside Down Cake</li>
+                        <li>Devil’s Food Cake</li>
+                        <li>Opera Cake</li>
+                        <li>Hummingbird Cake</li>
+                    </ul>
+            </div>
+            <div class="M5">
+                <h1><u>OTHERS</u></h1>
+            <ul >
+                <li>Macrons</li>
+                <li>Brownies</li>
+                <li>Cookies</li>
+                <li>Marshmallos</li>
+                <li>Doughnut</li>
+                <li>Choco-Pies</li>
+                <li>Smoothies</li>
+                <li>Shakes</li>
+                <li>Waffle</li>
+            </ul>
+            </div>
+        </div>
+        <div class="M7">
+            <p>SIP <br> & <br> GET REFRESH</p>
+        </div>
+    </div>
+    <div class="rev">
+        <h1> <a id="Review"></a>REVIEW</h1>
+        <div class ="R1">
+          <img src="45.jpg"width ="200" height="100">
+          <p>The fragrence and freshness of the tea served is amazing and refreshing.The collection is wonderful; </p>
+        </div>
+        <div class="R2">
+            <img src ="46.jpeg"width ="200" height="100">
+            <p>The cakes are really yum.Especially zero clories red velvate cake is real heaven.</p>
+        </div>
+        <div class="R3">
+            <img src="47.jpg"width ="200" height="100">
+            <p>The coffee is prepared with fresh holders gives it a wonderful taste. All the delicacies are of good quality and the quantity is also sufficient</p>
+        </div>
+    </div>
+    <div class="Con">
+        <h1> <a id="Contact"></a>CONTACT DETAILS</h1>
+        <form>
+            <label class="C5">NAME</label><br>
+            <input type ="text" class="C1"><br>
+            <label class="C6">EMAIL ADDRESS</label><br>
+            <input type ="text" class="C2"><br>
+            <label class="C7">SUBJECT</label><br>
+            <input type ="text" class="C3"><br>
+            <label class="C8">MESSAGE</label><br>
+            <input type ="text" class ="C4"><br>
+            <button class="C9"><strong>SEND</strong></button>
+        </form>
+    </div>
+</body>
+</html>
